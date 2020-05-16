@@ -1,0 +1,197 @@
+.google{
+    display: flex;
+    font-size: 25px;
+    font-family: "Noto Sans Myanmar UI", arial, sans-serif;
+    margin: 20px 22px;
+}
+.g{
+    color: #4285F4;
+}
+.o, .e{
+    color: #EA4335;
+}
+.o1{
+   color:  #FBBC05;
+}
+.l{
+    color: #34A853;
+}
+.pargraph{
+    font-size: 25px;
+    font-family: "Noto Sans Myanmar UI", arial, sans-serif;
+    margin-left: 15px;
+    margin-bottom: -6px;
+}
+.columns{
+    padding: 14px;
+}
+.wrapper{
+    
+    width: 750px;
+    border: 1px solid;
+    height: 490px;
+    border-color: silver;
+    border-radius: 14px;
+}
+.row-inputs{
+    display: flex;
+    border-radius: 4px ;
+}
+.first-name, .last-name{
+    margin: 20px;
+    font-size: 18px;
+}
+.email-username{
+    margin-left: 20px;
+    font-size: 18px;
+}
+input + span{
+      position: relative;
+}
+input + span::before{
+    position: absolute;
+}
+input:invalid {
+    border: 1px solid red;
+  }
+  input:invalid + span::before {
+    
+    color: red;
+  }
+  
+  input:valid + span::before {
+    content: '✓';
+    color: grey;
+  }
+  
+  
+.left-side{
+    width: 60%;
+}
+.right-side{
+    width: 40%;
+}
+.main{
+    margin: 0px 184px;
+}
+.email input{
+    border: none;
+  
+    width: 75%;
+    
+}
+.email{
+    border: 1px solid silver;
+    width: 52%;
+    border-radius: 5px;
+}    
+ .email:focus{
+    outline: 1px solid silver;
+    border: 1px solid  grey;
+    
+}
+.email-hint{
+    
+    font-size: 14px;
+    color: gray ; 
+    font-family: "Noto Sans Myanmar UI", arial, sans-serif;
+
+}
+input{
+    border-radius: 5px;
+    height: 30px;
+    border: 1px solid silver;
+}
+.instead-email{
+    color: #4285f4;
+}
+.about-email{
+    margin-left: 20px ;
+    font-family: "Noto Sans Myanmar UI", arial, sans-serif;
+    font-size: 14px;
+}
+.confirm-pass{
+    display: flex;
+}
+.confirm-pass input{
+    margin-left: 20px;
+}
+.fa{
+    color: grey;
+}
+.characters-required{
+    color: rgb(31, 26, 26);
+    font-size: 14px;
+    margin-left: 20px;
+    padding-right: 355px;
+    font-family: "Noto Sans Myanmar UI", arial, sans-serif;
+}
+.sign-in{
+    display: flex;
+}
+.instead{
+    color: #4285f4;
+    font-family: "Noto Sans Myanmar UI", arial, sans-serif;
+    margin-left: 20px;
+    margin-top: 11px;
+}
+.next-button button{
+    background-color: #4285f4;
+    color: white;
+    font-family: "Noto Sans Myanmar UI", arial, sans-serif;
+    border-radius: 2px ;
+    border: none;
+    margin-left: 220px;
+    padding: 10px 23px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    height: 300px;
+    margin-top: 90px;
+    margin-left: 30px;
+}
+.all, .working{
+    color: grey;
+    font-family: "Noto Sans Myanmar UI", arial, sans-serif;
+}
+.all{
+    margin: 5px 55px;
+}
+.working{
+    margin: 5px 90px;
+}
+.account-working{
+    margin: -20px;
+    margin-left: 15px;
+}
+footer{
+    display: flex;
+    margin-left: 174px;
+}
+.lang span{
+    font-family: "Noto Sans Myanmar UI", arial, sans-serif;
+    color: grey;
+    font-size: 14px;
+      
+}
+.navbar ul li{
+     list-style: none;
+    font-family: "Noto Sans Myanmar UI", arial, sans-serif;
+    color: grey;
+    padding-left: 14px;
+    font-size: 14px;
+}
+ul{
+    display: flex;
+    color: grey;
+    justify-content: space-between;
+}
+.lang{
+    margin: 15px;
+}
+.navbar{
+    margin-left: 374px;
+}
