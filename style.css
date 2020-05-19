@@ -45,26 +45,6 @@
     margin-left: 20px;
     font-size: 18px;
 }
-input + span{
-      position: relative;
-}
-input + span::before{
-    position: absolute;
-}
-input:invalid {
-    border: 1px solid red;
-  }
-  input:invalid + span::before {
-    
-    color: red;
-  }
-  
-  input:valid + span::before {
-    content: '✓';
-    color: grey;
-  }
-  
-  
 .left-side{
     width: 60%;
 }
@@ -101,6 +81,7 @@ input{
     border-radius: 5px;
     height: 30px;
     border: 1px solid silver;
+    padding: 5px;
 }
 .instead-email{
     color: #4285f4;
@@ -141,7 +122,7 @@ input{
     font-family: "Noto Sans Myanmar UI", arial, sans-serif;
     border-radius: 2px ;
     border: none;
-    margin-left: 220px;
+    margin-left: 199px;
     padding: 10px 23px;
 }
 .main{
