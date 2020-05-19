@@ -132,7 +132,6 @@ input{
 img{
     height: 300px;
     margin-top: 90px;
-    margin-left: 30px;
 }
 .all, .working{
     color: grey;
@@ -146,7 +145,7 @@ img{
 }
 .account-working{
     margin: -20px;
-    margin-left: 15px;
+    margin-left: 3px;
 }
 footer{
     display: flex;
